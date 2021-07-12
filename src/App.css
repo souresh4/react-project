@@ -1,7 +1,28 @@
 .App {
   text-align: center;
 }
-
+.homeparentcls{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  color: #282c34;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: #61dafb;
+  color: #282c34;
+}
+.navlinks{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
